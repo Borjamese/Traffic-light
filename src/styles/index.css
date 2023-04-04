@@ -1,9 +1,17 @@
 
 .App {
-text-align: text-center;
+text-align: center;
 width: 250px;
 height: 650px;
-border: 1px solid black
-
-
+border: 3px solid black
 }
+
+.light {
+width:200px;
+height:200px;
+border:20px solid black;
+border-radius: 50%;
+margin:auto;
+margin-top: 7px;
+}
+
