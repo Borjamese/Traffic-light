@@ -1,12 +1,14 @@
 import React from "react"
 
-const Light = () => { 
+const Light = ({color}) => { 
 return (
 <div>
-    <div className="light"> {color} </div>
+    <div className="light"
+     style={{backgroundColor:color === lit ? color : "grey" }}
+     ></div>
 </div>
 
-)
+);
 }
 
 
