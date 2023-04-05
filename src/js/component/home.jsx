@@ -9,7 +9,7 @@ const colors = ["red","yellow", "green"];
 	return (
 		<div className="App">
 			{colors.map((color) =>{
-				return <Light color ={color} lit={lit}/>
+				return <Light color ={color} lit={lit} setLit = {setLit}/>
 			})}
 		</div>
 	);
